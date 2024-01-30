@@ -1,6 +1,8 @@
 # transaction-deep-dive
 A deep dive into Solana transactions and how they work
 
+![image](https://github.com/AlmostEfficient/transaction-deep-dive/assets/42661870/3d1bc50d-ae9f-4f91-8997-a16c24d20823)
+
 ## Table of contents
 What is a transaction?  
 Lifecycle of a transaction  
