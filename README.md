@@ -2,14 +2,14 @@
 A deep dive into Solana transactions and how they work
 
 ## Table of contents
-What is a transaction?
-Lifecycle of a transaction
-Parts of a transaction
-Fees + how they're calculated
-Different versions of transactions
+What is a transaction?  
+Lifecycle of a transaction  
+Parts of a transaction  
+Fees + how they're calculated  
+Different versions of transactions  
 Why transactions fail & how to retry them  
 Handling tx sends in your apps - retries etc.  
-Barebones tx build
+Barebones tx build  
 
 ## Transaction failure vs rejection 
 Bots spam 1000 MEV transactions to make $1, cost of 1000 transactions is <$1, net positive.
