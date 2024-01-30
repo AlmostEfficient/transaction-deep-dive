@@ -1,0 +1,28 @@
+{
+  "name": "transaction-deep-dive",
+  "version": "1.0.0",
+  "description": "A deep dive into Solana transactions and how they work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlmostEfficient/transaction-deep-dive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlmostEfficient/transaction-deep-dive/issues"
+  },
+  "homepage": "https://github.com/AlmostEfficient/transaction-deep-dive#readme",
+  "dependencies": {
+    "@noble/ed25519": "^2.0.0",
+    "bs58": "^5.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10"
+  }
+}
