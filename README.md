@@ -1,7 +1,7 @@
 # transaction-deep-dive
 A deep dive into Solana transactions and how they work. Video walkthrough + further exlanation: [Everything you need to know about Solana transactions](https://www.youtube.com/watch?v=cu5GNWnN7IU)
 
-![image](https://github.com/AlmostEfficient/transaction-deep-dive/assets/42661870/3d1bc50d-ae9f-4f91-8997-a16c24d20823)
+![image](https://github.com/AlmostEfficient/transaction-deep-dive/assets/42661870/c8066219-ddc2-47af-ae3c-d764c1ba53d7)
 
 ## Scripts
 - **`transaction.ts`**: A legacy Solana transaction that interacts with the memo program, built from scratch without any Solana libraries.
