@@ -8,6 +8,6 @@ A deep dive into Solana transactions and how they work. Video walkthrough + furt
 -  **`legacy-vs-versioned.js**: An untested script that shows the difference between how legacy and versioned transactions are created.
 
 ## Suggested reading
-[Deep dive into versioned transactions (with fancy graphics) - Anvit Mangal](https://anvit.hashnode.dev/versioned-transactions)
-[Jito - Solana Validator 101 transaction processing](https://www.jito.wtf/blog/solana-validator-101-transaction-processing/)
-[Umbra Research - Lifecycle of a Solana transaction](https://www.umbraresearch.xyz/writings/lifecycle-of-a-solana-transaction)
+[Deep dive into versioned transactions (with fancy graphics) - Anvit Mangal](https://anvit.hashnode.dev/versioned-transactions)   
+[Jito - Solana Validator 101 transaction processing](https://www.jito.wtf/blog/solana-validator-101-transaction-processing/)   
+[Umbra Research - Lifecycle of a Solana transaction](https://www.umbraresearch.xyz/writings/lifecycle-of-a-solana-transaction)   
