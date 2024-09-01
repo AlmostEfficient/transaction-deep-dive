@@ -39,7 +39,7 @@ class Keypair {
 
     static async generate(): Promise<Keypair> {
         const secretKey = ed.utils.randomPrivateKey();
-        const publicKey = new PublicKey(await ed.getPublicKey(secretKey));
+        const publicKey = new PublicKey(await ed.getPublicKeyAsync(secretKey));
 
         return new Keypair(secretKey, publicKey);
     }
@@ -139,7 +139,7 @@ class Keypair {
     ]
 
     // Sign the message
-    const sig1 = await ed.sign(Buffer.from(message), keypair.secretKey.subarray(0, 32));
+    const sig1 = await ed.signAsync(Buffer.from(message), keypair.secretKey.subarray(0, 32));
     const signatures = [
         0x01, // Number of signatures
         ...sig1,
