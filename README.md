@@ -4,8 +4,10 @@ A deep dive into Solana transactions and how they work. Video walkthrough + furt
 ![image](https://github.com/AlmostEfficient/transaction-deep-dive/assets/42661870/c8066219-ddc2-47af-ae3c-d764c1ba53d7)
 
 ## Scripts
-- **`transaction.ts`**: A legacy Solana transaction that interacts with the memo program, built from scratch without any Solana libraries.
+- **`memo-transaction.ts`**: A legacy Solana tx that interacts with the memo program, built from scratch without any Solana libraries.
+- **`transfer-transaction.ts`**: Transfers SOL from one wallet to another, built from scratch without any Solana libraries.
 -  **`legacy-vs-versioned.js**: An untested script that shows the difference between how legacy and versioned transactions are created.
+-  **`web3.js`**: prints out a bunch of info for a transfer tx created with web3.js. Use this to figure out what your raw transactions should look like
 
 ## Suggested reading
 [Deep dive into versioned transactions (with fancy graphics) - Anvit Mangal](https://anvit.hashnode.dev/versioned-transactions)   

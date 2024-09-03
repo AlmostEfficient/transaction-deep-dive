@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AlmostEfficient/transaction-deep-dive#readme",
   "dependencies": {
     "@noble/ed25519": "^2.0.0",
+    "@solana/web3.js": "^1.95.3",
     "bs58": "^5.0.0",
     "node-fetch": "^3.3.2"
   },
